@@ -8,19 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject private var model: ItemListModel
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List {
+            ForEach($model.items) { $item in
+                Text(item.description)
+            }
+
+            if model.items.isEmpty {
+                Text("No items to do!")
+                    .foregroundColor(.gray)
+            }
         }
-        .padding()
+        .navigationTitle("Tasks")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
+    static var itemListModel = ItemListModel()
+
     static var previews: some View {
         ContentView()
+            .environmentObject(itemListModel)
     }
 }

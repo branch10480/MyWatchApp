@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct MyWatchApp_Watch_AppApp: App {
+    @StateObject var itemListModel = ItemListModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+                    .environmentObject(itemListModel)
+            }
         }
     }
 }

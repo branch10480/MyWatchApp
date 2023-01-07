@@ -12,6 +12,8 @@
 		4802DC6329694F000058B852 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802DC6229694F000058B852 /* ContentView.swift */; };
 		4802DC6529694F000058B852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4802DC6429694F000058B852 /* Assets.xcassets */; };
 		4802DC6829694F000058B852 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4802DC6729694F000058B852 /* Preview Assets.xcassets */; };
+		4802DC74296955D10058B852 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802DC73296955D10058B852 /* ListItem.swift */; };
+		4802DC762969561A0058B852 /* ItemListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802DC752969561A0058B852 /* ItemListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		4802DC6229694F000058B852 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4802DC6429694F000058B852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4802DC6729694F000058B852 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4802DC73296955D10058B852 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		4802DC752969561A0058B852 /* ItemListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		4802DC5F29694F000058B852 /* MyWatchApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				4802DC72296955B90058B852 /* Model */,
 				4802DC6029694F000058B852 /* MyWatchAppApp.swift */,
 				4802DC6229694F000058B852 /* ContentView.swift */,
 				4802DC6429694F000058B852 /* Assets.xcassets */,
@@ -92,6 +97,15 @@
 				4802DC6729694F000058B852 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4802DC72296955B90058B852 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4802DC73296955D10058B852 /* ListItem.swift */,
+				4802DC752969561A0058B852 /* ItemListModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4802DC762969561A0058B852 /* ItemListModel.swift in Sources */,
+				4802DC74296955D10058B852 /* ListItem.swift in Sources */,
 				4802DC6329694F000058B852 /* ContentView.swift in Sources */,
 				4802DC6129694F000058B852 /* MyWatchAppApp.swift in Sources */,
 			);

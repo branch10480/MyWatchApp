@@ -13,9 +13,14 @@ struct MyWatchApp_Watch_AppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                ContentView()
-                    .environmentObject(itemListModel)
+            TabView {
+                NavigationStack {
+                    ContentView()
+                        .environmentObject(itemListModel)
+                }
+                NavigationStack {
+                    ProductivityChart()
+                }
             }
         }
     }

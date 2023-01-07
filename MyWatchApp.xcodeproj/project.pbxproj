@@ -18,6 +18,8 @@
 		48DB43942969759600FEE51E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43932969759600FEE51E /* ItemDetail.swift */; };
 		48DB43962969792D00FEE51E /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43952969792D00FEE51E /* StepperView.swift */; };
 		48DB43982969AD0F00FEE51E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43972969AD0F00FEE51E /* ItemRow.swift */; };
+		48DB439C2969B99A00FEE51E /* ProductivityChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB439B2969B99A00FEE51E /* ProductivityChart.swift */; };
+		48DB43A02969B9F200FEE51E /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB439F2969B9F200FEE51E /* ChartData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		48DB43932969759600FEE51E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		48DB43952969792D00FEE51E /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		48DB43972969AD0F00FEE51E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		48DB439B2969B99A00FEE51E /* ProductivityChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityChart.swift; sourceTree = "<group>"; };
+		48DB439F2969B9F200FEE51E /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 			children = (
 				4802DC73296955D10058B852 /* ListItem.swift */,
 				4802DC752969561A0058B852 /* ItemListModel.swift */,
+				48DB439F2969B9F200FEE51E /* ChartData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 				48DB43932969759600FEE51E /* ItemDetail.swift */,
 				48DB43952969792D00FEE51E /* StepperView.swift */,
 				48DB43972969AD0F00FEE51E /* ItemRow.swift */,
+				48DB439B2969B99A00FEE51E /* ProductivityChart.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,6 +237,8 @@
 				48DB439129695EAA00FEE51E /* AddItemLink.swift in Sources */,
 				4802DC74296955D10058B852 /* ListItem.swift in Sources */,
 				48DB43962969792D00FEE51E /* StepperView.swift in Sources */,
+				48DB439C2969B99A00FEE51E /* ProductivityChart.swift in Sources */,
+				48DB43A02969B9F200FEE51E /* ChartData.swift in Sources */,
 				4802DC6329694F000058B852 /* ContentView.swift in Sources */,
 				4802DC6129694F000058B852 /* MyWatchAppApp.swift in Sources */,
 				48DB43982969AD0F00FEE51E /* ItemRow.swift in Sources */,

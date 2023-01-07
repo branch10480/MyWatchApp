@@ -15,21 +15,26 @@ struct ContentView: View {
             ForEach($model.items) { $item in
                 Text(item.description)
             }
-
             if model.items.isEmpty {
                 Text("No items to do!")
                     .foregroundColor(.gray)
             }
+        }
+        .toolbar {
+            AddItemLink()
+                .padding(.bottom)
         }
         .navigationTitle("Tasks")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    static var itemListModel = ItemListModel()
+    static var itemListModel = ItemListModel.demo
 
     static var previews: some View {
-        ContentView()
-            .environmentObject(itemListModel)
+        NavigationStack {
+            ContentView()
+                .environmentObject(itemListModel)
+        }
     }
 }

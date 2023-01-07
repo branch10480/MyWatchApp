@@ -15,6 +15,9 @@
 		4802DC74296955D10058B852 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802DC73296955D10058B852 /* ListItem.swift */; };
 		4802DC762969561A0058B852 /* ItemListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4802DC752969561A0058B852 /* ItemListModel.swift */; };
 		48DB439129695EAA00FEE51E /* AddItemLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB439029695EAA00FEE51E /* AddItemLink.swift */; };
+		48DB43942969759600FEE51E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43932969759600FEE51E /* ItemDetail.swift */; };
+		48DB43962969792D00FEE51E /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43952969792D00FEE51E /* StepperView.swift */; };
+		48DB43982969AD0F00FEE51E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43972969AD0F00FEE51E /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		4802DC73296955D10058B852 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		4802DC752969561A0058B852 /* ItemListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListModel.swift; sourceTree = "<group>"; };
 		48DB439029695EAA00FEE51E /* AddItemLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemLink.swift; sourceTree = "<group>"; };
+		48DB43932969759600FEE51E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		48DB43952969792D00FEE51E /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		48DB43972969AD0F00FEE51E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				48DB439029695EAA00FEE51E /* AddItemLink.swift */,
 				4802DC6229694F000058B852 /* ContentView.swift */,
 				4802DC6029694F000058B852 /* MyWatchAppApp.swift */,
+				48DB43932969759600FEE51E /* ItemDetail.swift */,
+				48DB43952969792D00FEE51E /* StepperView.swift */,
+				48DB43972969AD0F00FEE51E /* ItemRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,10 +227,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4802DC762969561A0058B852 /* ItemListModel.swift in Sources */,
+				48DB43942969759600FEE51E /* ItemDetail.swift in Sources */,
 				48DB439129695EAA00FEE51E /* AddItemLink.swift in Sources */,
 				4802DC74296955D10058B852 /* ListItem.swift in Sources */,
+				48DB43962969792D00FEE51E /* StepperView.swift in Sources */,
 				4802DC6329694F000058B852 /* ContentView.swift in Sources */,
 				4802DC6129694F000058B852 /* MyWatchAppApp.swift in Sources */,
+				48DB43982969AD0F00FEE51E /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

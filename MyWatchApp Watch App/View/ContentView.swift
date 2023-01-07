@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         List {
             ForEach($model.items) { $item in
-                Text(item.description)
+                ItemRow(item: $item)
             }
             if model.items.isEmpty {
                 Text("No items to do!")

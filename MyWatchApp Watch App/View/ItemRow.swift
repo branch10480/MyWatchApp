@@ -41,7 +41,7 @@ struct ItemRow: View {
 struct ItemRow_Previews: PreviewProvider {
     static var model: ItemListModel = .init(items: [item])
     @State static var item: ListItem = .init("hoge")
-    
+
     static var previews: some View {
         ItemRow(item: $item)
             .environmentObject(model)

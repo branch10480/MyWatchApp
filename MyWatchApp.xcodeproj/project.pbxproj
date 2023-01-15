@@ -20,6 +20,7 @@
 		48DB43982969AD0F00FEE51E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB43972969AD0F00FEE51E /* ItemRow.swift */; };
 		48DB439C2969B99A00FEE51E /* ProductivityChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB439B2969B99A00FEE51E /* ProductivityChart.swift */; };
 		48DB43A02969B9F200FEE51E /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB439F2969B9F200FEE51E /* ChartData.swift */; };
+		48DE5BF329744B570072103A /* DateFormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DE5BF229744B560072103A /* DateFormatStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		48DB43972969AD0F00FEE51E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		48DB439B2969B99A00FEE51E /* ProductivityChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityChart.swift; sourceTree = "<group>"; };
 		48DB439F2969B9F200FEE51E /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		48DE5BF229744B560072103A /* DateFormatStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		4802DC72296955B90058B852 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				48DE5BF229744B560072103A /* DateFormatStyle.swift */,
 				4802DC73296955D10058B852 /* ListItem.swift */,
 				4802DC752969561A0058B852 /* ItemListModel.swift */,
 				48DB439F2969B9F200FEE51E /* ChartData.swift */,
@@ -238,6 +241,7 @@
 				4802DC74296955D10058B852 /* ListItem.swift in Sources */,
 				48DB43962969792D00FEE51E /* StepperView.swift in Sources */,
 				48DB439C2969B99A00FEE51E /* ProductivityChart.swift in Sources */,
+				48DE5BF329744B570072103A /* DateFormatStyle.swift in Sources */,
 				48DB43A02969B9F200FEE51E /* ChartData.swift in Sources */,
 				4802DC6329694F000058B852 /* ContentView.swift in Sources */,
 				4802DC6129694F000058B852 /* MyWatchAppApp.swift in Sources */,

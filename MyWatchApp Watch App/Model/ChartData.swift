@@ -31,29 +31,26 @@ extension ChartData {
     static var chartSampleData: [DataElement] {
         let calendar = Calendar.autoupdatingCurrent
         var startDateComponents = calendar.dateComponents(
-            [.year, .month, .day],
-            from: Date()
-        )
+            [.year, .month, .day], from: Date())
         startDateComponents.setValue(22, for: .day)
         startDateComponents.setValue(5, for: .month)
         startDateComponents.setValue(2022, for: .year)
         startDateComponents.setValue(0, for: .hour)
         startDateComponents.setValue(0, for: .minute)
         startDateComponents.setValue(0, for: .second)
-
         let startDate = calendar.date(from: startDateComponents)!
 
         let itemsToAdd = [
-            6,3,1,4,1,2,7,
-            5,2,0,5,2,3,9
+            6, 3, 1, 4, 1, 2, 7,
+            5, 2, 0, 5, 2, 3, 9
         ]
         var items = [DataElement]()
-        for dayOffset in 0..<itemsToAdd.count {
+        for dayOffset in (0..<itemsToAdd.count) {
             items.append(DataElement(
                 date: calendar.date(byAdding: .day, value: dayOffset, to: startDate)!,
-                itemComplete: Double(itemsToAdd[dayOffset]))
-            )
+                itemComplete: Double(itemsToAdd[dayOffset])))
         }
+
         return items
     }
 }

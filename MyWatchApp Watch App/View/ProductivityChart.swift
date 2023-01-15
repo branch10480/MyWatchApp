@@ -94,6 +94,7 @@ struct ProductivityChart: View {
                 }
             }
             .onChange(of: highlightedDateIndex) { newValue in
+                print("## highlightedDateIndex: \(highlightedDateIndex)")
                 withAnimation {
                     updateChartDataRange()
                 }
